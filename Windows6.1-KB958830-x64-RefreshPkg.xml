@@ -1,0 +1,9 @@
+    <?xml version="1.0" encoding="utf-8"?>
+    <unattend xmlns="urn:schemas-microsoft-com:unattend">
+        <servicing>
+            <package action="install">
+                <assemblyIdentity  buildType="release" language="neutral" name="Microsoft-Windows-RemoteServerAdministrationTools-Package-TopLevel-MergedCab" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" version="6.1.7600.16385"/>
+                <source location="%configsetroot%\Windows6.1-KB958830-x64-RefreshPkg.cab" />
+            </package>
+        </servicing>
+    </unattend>
